@@ -20,7 +20,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>structure.composite.Main</mainClass>
+              <mainClass>structure.adapter.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
