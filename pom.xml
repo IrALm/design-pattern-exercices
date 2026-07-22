@@ -20,7 +20,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>structure.adapter.Main</mainClass>
+              <mainClass>structure.proxy.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
