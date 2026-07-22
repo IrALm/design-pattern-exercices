@@ -20,7 +20,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>exercice4.Main</mainClass>
+              <mainClass>structure.composite.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
