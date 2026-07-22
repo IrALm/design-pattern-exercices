@@ -41,3 +41,10 @@ build/
 
 ### Mac OS ###
 .DS_Store
+.claude
+out
+.idea/codeStyles
+.idea/encodings.xml
+.idea/material_theme_project_new.xml
+.idea/misc.xml
+.idea/vcs.xml

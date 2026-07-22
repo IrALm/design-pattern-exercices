@@ -20,7 +20,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>exercice2.Main</mainClass>
+              <mainClass>exercice3.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
