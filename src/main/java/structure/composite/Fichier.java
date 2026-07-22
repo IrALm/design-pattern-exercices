@@ -1,18 +1,12 @@
 package structure.composite;
 
-public class Fichier implements FileSystemComponent {
+public class Fichier extends FileSystemComponent {
 
-    private final String nom;
     private final long taille;
 
     public Fichier(String nom, long taille) {
-        this.nom = nom;
+        super(nom);
         this.taille = taille;
-    }
-
-    @Override
-    public String getName() {
-        return nom;
     }
 
     @Override
@@ -22,6 +16,6 @@ public class Fichier implements FileSystemComponent {
 
     @Override
     public void afficher(String prefixe) {
-        System.out.println(prefixe + "- " + nom + " (" + taille + " octets)");
+        System.out.println(prefixe + "- " + getName() + " (" + taille + " octets)");
     }
 }

@@ -1,10 +1,18 @@
 package structure.composite;
 
-public interface FileSystemComponent {
+public abstract class FileSystemComponent {
 
-    String getName();
+    private final String nom;
 
-    long getSize();
+    protected FileSystemComponent(String nom) {
+        this.nom = nom;
+    }
 
-    void afficher(String prefixe);
+    public String getName() {
+        return nom;
+    }
+
+    public abstract long getSize();
+
+    public abstract void afficher(String prefixe);
 }

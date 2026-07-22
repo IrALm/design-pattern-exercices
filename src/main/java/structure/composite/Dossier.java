@@ -3,13 +3,12 @@ package structure.composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Dossier implements FileSystemComponent {
+public class Dossier extends FileSystemComponent {
 
-    private final String nom;
     private final List<FileSystemComponent> enfants = new ArrayList<>();
 
     public Dossier(String nom) {
-        this.nom = nom;
+        super(nom);
     }
 
     public void ajouter(FileSystemComponent composant) {
@@ -18,11 +17,6 @@ public class Dossier implements FileSystemComponent {
 
     public void retirer(FileSystemComponent composant) {
         enfants.remove(composant);
-    }
-
-    @Override
-    public String getName() {
-        return nom;
     }
 
     @Override
@@ -36,7 +30,7 @@ public class Dossier implements FileSystemComponent {
 
     @Override
     public void afficher(String prefixe) {
-        System.out.println(prefixe + "+ " + nom + "/ (" + getSize() + " octets)");
+        System.out.println(prefixe + "+ " + getName() + "/ (" + getSize() + " octets)");
         for (FileSystemComponent enfant : enfants) {
             enfant.afficher(prefixe + "  ");
         }
