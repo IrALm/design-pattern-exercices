@@ -20,7 +20,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>comportement.strategy.Main</mainClass>
+              <mainClass>comportement.observer.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
