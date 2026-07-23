@@ -20,7 +20,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>structure.bridge.Main</mainClass>
+              <mainClass>structure.decorator.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
