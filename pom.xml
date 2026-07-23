@@ -20,7 +20,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>structure.decorator.Main</mainClass>
+              <mainClass>comportement.strategy.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
