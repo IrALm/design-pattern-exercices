@@ -20,7 +20,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>comportement.observer.Main</mainClass>
+              <mainClass>comportement.templatemethod.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
