@@ -20,7 +20,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>comportement.templatemethod.Main</mainClass>
+              <mainClass>comportement.mediator.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
